@@ -1,0 +1,10 @@
+PilotNavSystem = int(input("Enter the ft:"))
+
+if PilotNavSystem == 3000:
+  res = "Safe for landing"
+  print(res)
+elif PilotNavSystem < 6000:
+  res = "Allow the pilot to try for landing"
+  print(res)
+else:
+  print("Go Around")
